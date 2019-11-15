@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <head>
+    <title>map-tiles-calculator</title>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css" type="text/css" rel="stylesheet">
+    <link href="./src/index.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>    
+    <div class="container">
+      View it on GitHub <a class="github-button" href="https://github.com/cs09g/map-tiles-calculator" data-icon="octicon-star" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+      <h1>map-tiles-calculator</h1>
+      <div class="section">
+        <div class="left">
+          <h3>Insert coordinates</h3>
+          <h5><label for="coordinates">latitude/longitude: </label><input id="coordinates" type="text"></h5>
+          <h3>OR Click the map</h3>
+          <div id="map" class="map"></div>
+        </div>
+        <div class="right">
+          <h3>Result</h3>
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
+    <script src="./src/index.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
