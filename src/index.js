@@ -21,7 +21,7 @@ function calculateZXY(lat, lon) {
 }
 
 mapboxgl.accessToken = "pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ";
-var map = new mapboxgl.Map({
+const map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/mapbox/streets-v9",
   center: [127.8429, 36.5154],
